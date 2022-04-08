@@ -14,9 +14,10 @@ color: gold;
  }
  h4 {
  	color: yellow;
+	font-size: 25px;
  }
   p{
-  color: yellow;
+  color: orange;
   font-size: 25px;
   -webkit-text-stroke: 0.5px black;
   }
@@ -38,5 +39,8 @@ color: gold;
  background-repeat: repeat;
  background-position: center;
  }
-
+  h4,p {
+  display: none;
+  }
+  
  
