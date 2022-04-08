@@ -1,0 +1,42 @@
+h1{
+text-align: center;
+outline-style: inset;
+outline-color: grey;
+outline-width: 10px;
+}
+h1{
+color: gold;
+-webkit-text-stroke: 1px white;
+}
+ h3{
+ 	color: red;
+	font-size: 30px;
+ }
+ h4 {
+ 	color: yellow;
+ }
+  p{
+  color: yellow;
+  font-size: 25px;
+  -webkit-text-stroke: 0.5px black;
+  }
+  
+ 
+
+ #contact {
+ float: right;
+ font-size: 25px;
+ transform: translateY(-100px);
+ }
+ #contactLink:hover{
+ color: red;
+}
+
+ body{
+ background-image: url('https://sell.g2.com/hubfs/FAQ.png');
+ background-image: cover;
+ background-repeat: repeat;
+ background-position: center;
+ }
+
+ 
