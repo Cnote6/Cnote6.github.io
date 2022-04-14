@@ -1,0 +1,97 @@
+.personalInfo {
+display: inline-block;
+}
+h2{
+color: white;
+-webkit-text-stroke: 1px gold;
+}
+input:focus{
+ background: blue;
+}
+
+#firstName{
+margin-bottom: 10px;
+border: 2px solid black;
+width: 150px;
+}
+#lastName {
+margin-bottom: 10px;
+border: 2px solid black;
+width: 200px;
+}
+#address {
+margin-bottom: 10px;
+border: 2px solid black;
+}
+#city{
+margin-bottom: 10px;
+border: 2px solid black;
+width: 200px;
+}
+#state{
+margin-bottom: 10px;
+border: 2px solid black;
+width: 100px;
+}
+#zip{
+border: 2px solid black;
+width: 150px;
+}
+::placeholder{
+color: red !important; 
+font-size: 15px;
+}
+#checkBox{
+margin-top: -45px;
+height: 4%;
+width: 4%;
+
+}
+.info{
+transform: translateX(80px);
+font-size: 25px;
+ 
+}
+.checkoutBox{
+float: right;
+transform: translateX(-160px);
+width: 300px;
+outline: 10px inset gold;
+outline-offset: 70px;
+color: white;
+}
+
+#subtotal{
+width: 100px;
+}
+#shipping{
+width: 100px;
+}
+#total{
+width: 104px;
+transform: translateX(40px);
+}
+
+#checkTxt {
+color: white;
+-webkit-text-stroke: 1px gold;
+}
+
+body{
+background-image: url('https://pbs.twimg.com/media/Ebf0HZMWAAIClyI?format=png&name=small');
+-webkit-background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+
+}
+#payBtn {
+transform: translateX(120px) translateY(40px);
+width: 30%;
+height: 8%;
+}
+#payBtn:hover{
+color: red;
+}
+
+
