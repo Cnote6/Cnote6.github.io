@@ -118,11 +118,15 @@
 	
 	 
 	  <div class="container">
-	  <div class="alert alert-danger alert-dismissible" id="myAlert" style="width: 25%; float:right">
+	  <div class="alert alert-danger alert-dismissible fade show" role="alert" id="myAlert" style="width: 25%; float:right">
 	  	<button type="button" class="close" data-dismiss="alert">&times;</button>
 			<p>Due to limited staff, we may require some time to return you call</p>
 			</div>
-			</div>
+			</div> 
+			
+			<script>
+			$('.alert').alert('close')
+			</script>
 		
 	 <form id="form1">
 	  <input id="name" type="text" placeholder="name">
@@ -132,7 +136,7 @@
 	  <button class="btn btn-primary" id="submit" style="transform: translateY(220px) translateX(-580px)"type="submit" onclick="validate()">Submit</button>
 	  </form>
 
-			<p style="color:black; transform: translateY(300px); font-size: 25px" id="tel">TEL: 555-5555-5555</p>
+			<p style="color:black; transform: translateY(280px) translateX(-20px); font-size: 25px" id="tel">TEL: 555-5555-5555</p>
 			
 			 <script>
 			 function validate() {
