@@ -6,7 +6,6 @@
 			let total =  quantity * priceNum;
 		
 			let product = $("name").val();
-			
-			 alert(total + " added to cart");
+			 alert(` ${product}: $ ${total} added to cart`);
 	});
 			});
