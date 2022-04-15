@@ -42,5 +42,9 @@ color: gold;
   h4,p {
   display: none;
   }
+  #show:hover{
+  background-color: black;
+  
+  }
   
  
