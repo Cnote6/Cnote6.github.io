@@ -6,35 +6,35 @@ color: white;
 -webkit-text-stroke: 1px gold;
 }
 input:focus{
- background: blue;
+ background: lightblue;
 }
 
 #firstName{
 margin-bottom: 10px;
-border: 2px solid black;
+border: 5px inset grey;
 width: 150px;
 }
 #lastName {
 margin-bottom: 10px;
-border: 2px solid black;
+border: 5px inset grey;
 width: 200px;
 }
 #address {
 margin-bottom: 10px;
-border: 2px solid black;
+border: 5px inset grey;
 }
 #city{
 margin-bottom: 10px;
-border: 2px solid black;
+border: 5px inset grey;
 width: 200px;
 }
 #state{
 margin-bottom: 10px;
-border: 2px solid black;
+border: 5px inset grey;
 width: 100px;
 }
 #zip{
-border: 2px solid black;
+border: 5px inset grey;
 width: 150px;
 }
 ::placeholder{
@@ -60,7 +60,6 @@ outline: 10px inset gold;
 outline-offset: 70px;
 color: white;
 }
-
 #subtotal{
 width: 100px;
 }
@@ -92,6 +91,47 @@ height: 8%;
 }
 #payBtn:hover{
 color: red;
+}
+.payMethodBox{
+float: right;
+transform: translateX(-80px) translateY(-250px);
+margin-right: 45px;
+
+}
+#label{
+color: red;
+}
+
+#creditPay{
+color: white;
+margin-right: 20px;
+}
+#cryptoPay{
+color: white;
+}
+#saveCardBtn{
+transform: translateX(125px) translateY(-22px);
+}
+#saveCardBtn:hover{
+background-color: black;
+}
+
+#cardHolder
+            {
+margin-bottom: 5px;
+border: solid 3px gold;
+}
+#cardNumber {
+margin-bottom: 5px;
+border: solid 3px gold;
+}
+#expDate {
+margin-bottom: 5px;
+border: solid 3px gold;
+}
+#ccvNum{
+margin-bottom: 5px;
+border: solid 3px gold;
 }
 
 
