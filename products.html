@@ -64,6 +64,10 @@
 	#cartBtn:hover{
 	color: red;
 	}
+	#cartBtn2:hover{
+	color: red;
+	}
+	
    #badge{
 	margin-top: 5px;
 	}
@@ -78,8 +82,9 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 	<script type = "text/Javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+	
 	
 	
 	</head>
@@ -109,9 +114,9 @@
 	</div>
 	
 	<div class="product-info">
-		<h5 id="name" val="button mushrooms" name="button mushrooms">Button Mushrooms</h5>
+		<h5 class="hi" id="name" val="button mushrooms" name="button mushrooms1">Button Mushrooms</h5>
 		<button class="btn btn-info btn-lg" id="moreInfo" >More info</button>
-		<p id="prices1" class="prices"> 3.55
+		<p id="prices1" class="prices"> $3.55 /lb
 		<br>
 			<span>Quantity : </span>
 			<input type="number" min="1" max="10" id="quantity">
@@ -127,27 +132,27 @@
 	</div>
 	
 	<div class="product-info">
-		<h5 id="name">Cremini Mushrooms</h5>
+		<h5 id="name1">Cremini Mushrooms</h5>
 		<button class="btn btn-info btn-lg" id="moreInfo1">More Info</button>
 		<p id="prices2"> Cultivated: $6 / LB
 			Quantity : 
-			<input type="number" min="0" max="10">
-		<button class="btn btn-dark" id="cartBtn">Add to cart</button>
+			<input type="number" min="1" max="10" id="quantity1">
+		<button class="btn btn-dark" id="cartBtn2">Add to cart</button>
 		</p>
 		</div>
 		</div>
 		
 		<div style="float: right"class="product-card">
  	<div class="product-image">
-	<img style="border: inset 5px black" src="https://www.thespruceeats.com/thmb/TTI_E1PUyuoK86iQPk7RXtN1bRY=/940x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/portobellomushroomsYulia-Images-c050bbacbc2c430393434e6b36a2c0c6.jpg">
+	<img style="border: inset 5px  black" src="https://www.thespruceeats.com/thmb/TTI_E1PUyuoK86iQPk7RXtN1bRY=/940x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/portobellomushroomsYulia-Images-c050bbacbc2c430393434e6b36a2c0c6.jpg">
 	</div>
 	<div class="product-info">
-		<h5 id="name">Portobello Mushrooms</h5>
+		<h5 id="name3">Portobello Mushrooms</h5>
 		<button class="btn btn-info btn-lg" id="moreInfo2">More Info</button>
 		<p id="prices3"> Cultivated: $1.69/ LB
 			Quantity : 
-			<input type="number" min="0" max="10">
-		<button class="btn btn-dark" id="cartBtn">Add to cart</button>
+			<input type="number" min="0" max="10" id="quantity2">
+		<button class="btn btn-dark" id="cartBtn3">Add to cart</button>
 		</p>
 		</div>
 		</div>
@@ -157,13 +162,13 @@
 	<img style="border: inset 5px black; height: 33%" src="https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/oyster-mushroom-1296x728-header.jpg?w=1575">
 	</div>
 	<div class="product-info">
-		<h5 id="name">Oyster Mushrooms</h5>
+		<h5 id="name4">Oyster Mushrooms</h5>
 		<button class="btn btn-info btn-lg" id="moreInfo3">More info</button>
 		<p id="prices4"> Cultivated: $6/ LB 
 		<br>
 		 	Quantity : 
-			<input type="number" min="0" max="10">
-	<button class="btn btn-dark" id="cartBtn">Add to cart</button>
+			<input type="number" min="0" max="10" id="quantity3">
+	<button class="btn btn-dark" id="cartBtn4">Add to cart</button>
 	</p>
 		</div>
 		</div>
@@ -173,13 +178,13 @@
 	<img style="border: inset 5px black; height: 33%" src="https://images.bonanzastatic.com/afu/images/a509/7de6/8848_10433689450/il_fullxfull.1697925231_t1v3.jpg">
 	</div>
 	<div class="product-info">
-		<h5 id="name">Chanterelles</h5>
+		<h5 id="name5">Chanterelles</h5>
 		<button class="btn btn-info btn-lg" id="moreInfo4">More info</button>
 		<p id="prices5"> Wild: $48 / LB
 		<br>
 			Quantity : 
-			<input type="number" min="0" max="10">
-		<button class="btn btn-dark" id="cartBtn">Add to cart</button>
+			<input type="number" min="0" max="10" id="quantity4">
+		<button class="btn btn-dark" id="cartBtn5">Add to cart</button>
 		</p>
 		</div>
 		</div>
@@ -189,13 +194,13 @@
 	<img style="border: inset 5px black; height: 33%" src="https://media.istockphoto.com/photos/common-morel-fungus-picture-id505505411?s=612x612">
 	</div>
 	<div class="product-info">
-		<h5 id="name">Morels</h5>
+		<h5 id="name6">Morels</h5>
 		<button class="btn btn-info btn-lg" id="moreInfo5">More info</button>
-		<p id="prices6" id="moreInfo"> Wild: $48 / LB
+		<p id="prices6"> Wild: $48 / LB
 		<br>
 			Quantity : 
-			<input type="number" min="0" max="10">
-		<button class="btn btn-dark" id="cartBtn">Add to cart</button>
+			<input type="number" min="0" max="10" id="quantity5">
+		<button class="btn btn-dark" id="cartBtn6">Add to cart</button>
 		</p>
 		</div>
 		</div>
@@ -205,14 +210,14 @@
 	<img style="border: inset 5px black; height: 33%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Shiitakegrowing.jpg/220px-Shiitakegrowing.jpg">
 	</div>
 	<div class="product-info">
-		<h5 id="name">Shiitake</h5>
+		<h5 id="name7">Shiitake</h5>
 		<button class="btn btn-info btn-lg" id="moreInfo6">More info</button>
 		<strong><b><p style="color: white; -webkit-text-stroke: 1px red" id="prices7"> Cultivated: $12 / LB</b></strong>
 		<br>
 			Quantity : 
-			<input type="number" min="0" max="10">
+			<input type="number" min="0" max="10" id="quantity6">
 			
-		<button class="btn btn-dark" id="cartBtn">Add to cart</button>
+		<button class="btn btn-dark" id="cartBtn7">Add to cart</button>
 		</p>
 		</div>
 		</div>
@@ -222,15 +227,15 @@
 	<img style="border: inset 5px black; height: 33%; transform: translateX(-400px)" src="https://media.istockphoto.com/photos/fresh-picked-medicinal-ganoderma-lucidum-picture-id1330220735?b=1&k=20&m=1330220735&s=170667a&w=0&h=xQ42qjzs21Y9nfaQ805AhqPplslEBOEZnSh1ibbl6Fc=">
 	</div>
 	<div class="product-info" style="transform: translateX(-350px)">
-		<h5 style="color: black; font-size: 30px" id="name">Reishi</h5>
+		<h5 style="color: black; font-size: 30px" id="name8">Reishi</h5>
 		<button class="btn btn-info btn-lg" id="moreInfo7" >More info</button> 
 		<h3><span class="badge badge-success" id="badge">New!</span></h3>
 		<strong><b><p style="color: white; -webkit-text-stroke: 1px red" id="prices8"> Cultivated: $75 / LB</b></strong>
 		<br>
 			Quantity : 
-			<input type="number" min="0" max="10">
+			<input type="number" min="0" max="10" id="quantity7">
 		
-		<button class="btn btn-dark" id="cartBtn">Add to cart</button></p>
+		<button class="btn btn-dark" id="cartBtn8">Add to cart</button></p>
 		</div>
 		</div>
 		
@@ -292,6 +297,7 @@
       </script>
 	
 		<script src="cartbutton.js" type="text/javascript"></script>
+		<script src="cartButton2.js" type="text/javascript"></script>
       
 </body>
 </html>
