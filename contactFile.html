@@ -64,7 +64,7 @@
 	}
 	#fb{
 	transform: translateX(800px);
-	transform: translateY(300px);
+	transform: translateY(200px);
 	width: 50px;
 	font-size: 50px;
 	 background: #3B5998;
@@ -76,9 +76,9 @@
 	#insta{
 	width: 50px;
 	font-size: 50px;
-	transform: translate(800px);
+	
 	transform: translateX(-320px);
-	transform: translateY(300px);
+	transform: translateY(200px);
 	 background: #125688;
   color: white;
   padding: 5px;
@@ -93,12 +93,28 @@
 	}
 	#socLinks{
 	-webkit-text-stroke: 1.5px white;
-	transform: translateX(-200px);
-	transform: translateY(270px);
+	transform: translateX(-1px) translateY(190px);
 	font-size: 25px;
 	}
+	#phoneIcon{
+	size: auto;
+	height: 80px;
+	transform: translateX(1050px) translateY(275px);
+	}
 	
-	
+	.rotate{
+		animation: rotation 2s;
+	}
+	@keyframes rotation {
+		from {
+		transform: rotate(0deg)  translateX(1050px) translateY(275px);
+		
+	}
+		to {
+		transform: rotate(90deg);
+		
+		}
+		}
 	
 	
 
@@ -120,7 +136,7 @@
 	  <div class="container">
 	  <div class="alert alert-danger alert-dismissible fade show" role="alert" id="myAlert" style="width: 25%; float:right">
 	  	<button type="button" class="close" data-dismiss="alert">&times;</button>
-			<p>Due to limited staff, we may require some time to return you call</p>
+			<p>Due to limited staff, we may require some time to return your call</p>
 			</div>
 			</div> 
 			
@@ -135,7 +151,9 @@
 	  </textarea>
 	  <button class="btn btn-primary" id="submit" style="transform: translateY(220px) translateX(-580px)"type="submit" onclick="validate()">Submit</button>
 	  </form>
-
+          
+			 <img id="phoneIcon" class ="rotate linear"src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/phone-512.png">
+			 
 			<p style="color:black; transform: translateY(280px) translateX(-20px); font-size: 25px" id="tel">TEL: 555-5555-5555</p>
 			
 			 <script>
