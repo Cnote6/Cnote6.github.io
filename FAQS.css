@@ -41,4 +41,27 @@ color: gold;
  background-repeat: repeat;
  background-position: center;
  }
+ .btn:hover{
+ color: red;
+ }
  
+ 
+  #questionMark{
+  height: 25%;
+  animation: rotation 5s;
+  animation-name: questionMark;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  
+  
+  }
+   @keyframes questionMark {
+	 from {
+	    transform: translateX(0px) rotate(0deg);
+	 }
+	 to {
+	 transform:  translateX(800px) rotate(180deg) scale(-0.5);
+	 
+	 }
+	}
+	
