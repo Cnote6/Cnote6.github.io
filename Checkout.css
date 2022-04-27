@@ -23,6 +23,15 @@ width: 200px;
 margin-bottom: 10px;
 border: 5px inset grey;
 }
+#address2 {
+margin-bottom: 10px;
+border: 5px inset grey;
+}
+#address1{
+margin-bottom: 10px;
+border: 5px inset grey;
+}
+
 #city{
 margin-bottom: 10px;
 border: 5px inset grey;
@@ -37,6 +46,44 @@ width: 100px;
 border: 5px inset grey;
 width: 150px;
 }
+#shippingCity{
+margin-bottom: 10px;
+border: 5px inset grey;
+width: 200px;
+}
+#shippingState{
+margin-bottom: 10px;
+border: 5px inset grey;
+width: 100px;
+}
+#shippingZip{
+border: 5px inset grey;
+width: 150px;
+}
+
+#billingAddress{
+margin-bottom: 10px;
+border: 5px inset grey;
+}
+#billingAddress2{
+margin-bottom: 10px;
+border: 5px inset grey;
+}
+#billingCity{
+margin-bottom: 10px;
+border: 5px inset grey;
+width: 200px;
+}
+#billingState{
+margin-bottom: 10px;
+border: 5px inset grey;
+width: 100px;
+}
+#billingZip{
+border: 5px inset grey;
+width: 150px;
+}
+
 ::placeholder{
 color: red !important; 
 font-size: 15px;

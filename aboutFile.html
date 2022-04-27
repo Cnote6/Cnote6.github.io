@@ -25,10 +25,20 @@ display: inline;
 }
 input{
 transform: translate(40px);
+border: 2px solid black;
 }
+input:focus{
+background-color: skyblue;
+}
+
 #submit{
 transform: translate(40px);
+
 }
+#submit:hover{
+background-color: red;
+}
+
 #fb{
 	transform: translateX(750px);
 	transform: translateY(-100px);
@@ -54,6 +64,7 @@ transform: translate(40px);
   margin: 5px 2px;
   display: inline;
   float: right;
+	}
 	
  </style>
  
@@ -62,6 +73,7 @@ transform: translate(40px);
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 	
 	<h1> About us </h1></head>
 <body>
@@ -83,7 +95,7 @@ contact us <a href="contactFile.html" style="color: red">Here</a>
 	 <input type="text" placeholder="name">
 	 <input type="email" placeholder="email">
 	 </form>
-	 <button id="submit" type="submit">Submit</button>
+	 <button  class="btn btn-primary"id="submit" type="submit">Submit</button>
 	 
 	 <a id="fb" href="https://www.facebook.com" class="fa fa-facebook"></a>
 			<a id="insta" href="https://www.instagram.com" class="fa fa-instagram"></a>
