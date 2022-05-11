@@ -1,0 +1,192 @@
+<DOCTYPE html> 
+<html>
+	<style>
+
+	h3{
+		text-align: center;
+		text-decoration: bold;
+	}
+	#name{
+	transform: translateX(20px);
+	}
+	
+	input{
+	display: inline-block;
+	}
+	#email{
+	
+		transform: translateY(45px) translateX(-210px);
+	   
+	}
+	#message{
+	transform: translateY(190px) translateX(-450px);
+	height: 20%;
+	}
+	
+
+	.container{
+	border-radius: 5px;
+ 
+	}
+	#submit:hover{
+		background-color: red;
+		}
+	body{
+	background-image: url("https://cdn.pixabay.com/photo/2015/12/17/14/35/mushroom-1097403__340.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	}
+	h3{
+	-webkit-text-stroke: 1.5px white;
+	}
+	input{
+	border-style: inset;
+	border-width: 5px;
+	border-color: red;
+	}
+	input:focus{
+	background-color: lightblue;
+	}
+	textarea:focus{
+	background-color: lightblue;
+	}
+	
+	
+	textarea{
+	border-style: inset;
+	border-width: 5px;
+	border-color: red;
+	}
+	#tel{
+	-webkit-text-stroke: 1.5px white;
+	float: right;
+	transform: translateX(20px):
+	}
+	#fb{
+	transform: translateX(800px);
+	transform: translateY(200px);
+	width: 50px;
+	font-size: 50px;
+	 background: #3B5998;
+  color: white;
+  padding: 10px;
+  margin; 5px 2px;
+	
+	}
+	#insta{
+	width: 50px;
+	font-size: 50px;
+	
+	transform: translateX(-320px);
+	transform: translateY(200px);
+	 background: #125688;
+  color: white;
+  padding: 5px;
+  margin: 5px 2px;
+	
+	}
+	#fb:hover{
+	opacity: 0.7;
+	}
+	#insta:hover{
+	opacity: 0.7;
+	}
+	#socLinks{
+	-webkit-text-stroke: 1.5px white;
+	transform: translateX(-1px) translateY(190px);
+	font-size: 25px;
+	}
+	#phoneIcon{
+	size: auto;
+	height: 80px;
+	transform: translateX(1050px) translateY(275px);
+	}
+	
+	.rotate{
+		animation: rotation 2s;
+	}
+	@keyframes rotation {
+		from {
+		transform: rotate(0deg)  translateX(1050px) translateY(275px);
+		
+	}
+		to {
+		transform: rotate(90deg);
+		
+		}
+		}
+	
+	
+
+	
+	
+	</style>
+	
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<script type="text/javascript" src="customAlert.js"></script>
+	
+	<title> Contact us</title></head>
+<body> 
+	<div id="dialogOverlay"></div>
+	<div id = "dialogBox">
+	<div>
+		<div id="dialogBoxHead"></div>
+		<div id="dialogBoxBody"></div>
+		<div id="dialogBoxFoot"></div>
+	</div>
+	</div>
+
+	 <h3> Please use the form below to contact us via email</h3>
+	
+	 
+	  <div class="container">
+	  <div class="alert alert-danger alert-dismissible fade show" role="alert" id="myAlert" style="width: 25%; float:right">
+	  	<button type="button" class="close" data-dismiss="alert">&times;</button>
+			<p>Due to limited staff, we may require some time to return your call</p>
+			</div>
+			</div> 
+			
+			<script>
+			$('.alert').alert('close')
+			</script>
+		
+	 <form id="form1">
+	  <input id="name" type="text" placeholder="name">
+	  <input id="email" type="email" placeholder="email">
+	  <textarea id="message" type="text" placeholder="your message here" rows="25" cols="30">
+	  </textarea>
+	  <button class="btn btn-primary" id="submit" style="transform: translateY(220px) translateX(-580px)"type="submit" onclick="validate()">Submit</button>
+
+	  </form>
+          
+			 <img id="phoneIcon" class ="rotate linear"src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/phone-512.png">
+			 
+			<p style="color:black; transform: translateY(280px) translateX(-20px); font-size: 25px" id="tel">TEL: 555-5555-5555</p>
+			
+			 <script>
+			 function validate() {
+			 var form = document.getElementById("form1");
+			  var name = document.getElementById("name");
+			  var email = document.getElementById("email");
+			  var message = document.getElementById("message");
+			  
+			  if(name.value === "" || email.value === "" || message.value === "") {
+			  alert("please complete the form");
+			  }
+			  else{
+			  alert("THANK YOU FOR CONTACTING US");
+			  }
+			  }
+			 </script> 
+			 <p id="socLinks"> Follow our social media links to stay up to date</p>
+			<a id="fb" href="https://www.facebook.com" class="fa fa-facebook"></a>
+			<a id="insta" href="https://www.instagram.com" class="fa fa-instagram"></a>
+			
+		
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>

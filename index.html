@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="portfolio.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <script type = "text/Javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+	
+	<title id="title"> Sean Keller</title>
+	</head>
+<body> 
+	<h1 id="header">Sean Keller</h1>
+	
+	
+	
+	<img  id="mePhoto"src="https://camblyavatars.s3.amazonaws.com/5ca410947e624f0023a7f6cds200?h=c776dc8cab4a51135ffe9e4e0a24e3f2">
+	<hr>
+	<div style="float: right; transform: translateY(-200px) translateX(-200px)">
+	<div class= "steam steam-1"> </div>
+	<div class= "steam steam-2"> </div>
+	<div class= "steam steam-3"> </div>
+	<div class= "steam steam-4"> </div>
+	<div class="coffee-cup"> </div>
+	<div class="handle"> </div>
+	<div class = "saucer" style="transform: translateX(45px) translateY(18px)"></div>
+	</div>
+	
+	<button class="btn btn-dark btn-lg" id="moreBtn" onclick="function(); color();">more</button>
+	<h3 id="header3">Aspiring fullstack web developer</h3>
+	<p id="email"><strong> BarefootBagpiper665@gmail.com</strong></p>  
+	
+	
+			
+		 <h3>About me</h3>
+		 <section id=aboutTxt>
+		<p class="aboutTxt" style="color: black"> <em>Greetings, and thank you for visiting my page. My name is Sean Keller and
+		I was born and raised in Petoskey, Michigan.</em></p>
+		<p class="aboutTxt" style="color: black"><em>I discovered my love for web design and development and the age of 31.</em></p>
+		<p class="aboutTxt"><em>I was looking for a career change when I began dabbling with HTML. Fast forward a few months and </em></p>
+		<p class="aboutTxt"><em>web development went from being a interesting hobby to a serious investment.</em></p>
+		<p class="aboutTxt"><em>Apart from web development, I love to spend my free time outdoors; hiking, mountain climbing etc.</em></p>
+		<p class="aboutTxt"><em>or at home reading a good book</em></p>
+		</section>
+	
+	    <div class="container">
+     <h3 style="color: white"><u>Relevant Skills</u></h3>
+	  	<ul>
+			<li>HTML/ CSS</li>
+			<li>Bootstrap 4</li>
+			<li> Javascript/Jquery</li>
+		</ul>
+		</div>
+	  
+	 <div class="project2">
+	 <div id ="borderLeft2">
+	 	<h4 id="project2Title">Mock Website</h4>
+		<p id= "proj2Desc"> A mock ecommerce website</p>
+		<p id="projLink2"><a href="https://cnote6.github.io/" id="link2">Link </a></p>
+		</div>
+		</div>
+	
+	<div class="project1">
+	<div id = "borderLeft">
+		<h4 id="projectTitle">Rock Paper Scissors game</h4>
+		<p id="projDesc">a game made with HTML,CSS and JS that lets you play against the computer</p>
+		<p id= "projLink"><a href="rockPaperScissors.html" id="link">Link </a></p>
+	</div>
+	</div>
+	
+     <script> 
+	  $(document).ready(function(){
+	  	$('#moreBtn').click(function(){
+		  $('#aboutTxt').toggle("slow");
+		  });
+		  });
+				
+	  </script>
+	
+	</body>
+</html>
