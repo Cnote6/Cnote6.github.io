@@ -1,0 +1,67 @@
+h1{
+text-align: center;
+outline-style: inset;
+outline-color: grey;
+outline-width: 10px;
+}
+h1{
+color: gold;
+-webkit-text-stroke: 1px white;
+}
+ h3{
+ 	color: red;
+	font-size: 30px;
+ }
+ h4 {
+ 	color: yellow;
+	font-size: 25px;
+ }
+  p{
+  color: orange;
+  font-size: 25px;
+  -webkit-text-stroke: 0.5px black;
+  display: none;
+  }
+  
+ 
+
+ #contact {
+ float: right;
+ font-size: 25px;
+ transform: translateY(-70px);
+ display: inline;
+ }
+ #contactLink:hover{
+ color: red;
+}
+
+ body{
+ background-image: url('https://sell.g2.com/hubfs/FAQ.png');
+ background-image: cover;
+ background-repeat: repeat;
+ background-position: center;
+ }
+ .btn:hover{
+ color: red;
+ }
+ 
+ 
+  #questionMark{
+  height: 25%;
+  animation: rotation 5s;
+  animation-name: questionMark;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  
+  
+  }
+   @keyframes questionMark {
+	 from {
+	    transform: translateX(0px) rotate(0deg);
+	 }
+	 to {
+	 transform:  translateX(800px) rotate(180deg) scale(-0.5);
+	 
+	 }
+	}
+	
